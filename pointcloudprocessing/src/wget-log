@@ -1,0 +1,6 @@
+--2020-11-19 23:00:05--  https://translate.googleusercontent.com/translate_c?depth=1
+Resolving translate.googleusercontent.com (translate.googleusercontent.com)... 216.58.196.97, 2404:6800:4002:803::2001
+Connecting to translate.googleusercontent.com (translate.googleusercontent.com)|216.58.196.97|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2020-11-19 23:00:05 ERROR 403: Forbidden.
+

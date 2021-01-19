@@ -2,32 +2,33 @@
 <robot name="all_sensors" xmlns:xacro="http://www.ros.org/wiki/xacro">
   <!-- This file unifies all sensors that can be used on simulation, defined as xacro:macros -->
 
-  <!-- GPS -->
-  <xacro:include filename="$(find eufs_description)/sensors/gps.urdf.xacro"/>
+  <!-- GPS
+  <xacro:include filename="$(find eufs_description)/sensors/gps.urdf.xacro"/> -->
 
-  <!-- Hokuyo utm30lx -->
-  <xacro:include filename="$(find eufs_description)/sensors/hokuyo_utm30lx.urdf.xacro"/>
+  <!-- Hokuyo utm30lx 
+  <xacro:include filename="$(find eufs_description)/sensors/hokuyo_utm30lx.urdf.xacro"/>-->
 
   <!-- Velodyne VLP-16 -->
   <xacro:include filename="$(find eufs_description)/sensors/VLP-16.urdf.xacro"/>
-  <xacro:include filename="$(find eufs_description)/sensors/VLP-16R.urdf.xacro"/>
+  
+  <!-- <xacro:include filename="$(find eufs_description)/sensors/VLP-16R.urdf.xacro"/>
 
-  <!-- Imu -->
+  Imu 
   <xacro:include filename="$(find eufs_description)/sensors/imu.urdf.xacro"/>
 
-  <!-- Imu hector -->
+  Imu hector 
   <xacro:include filename="$(find eufs_description)/sensors/imu_hector_plugin.urdf.xacro"/>
 
-  <!-- Kinect -->
+   Kinect 
   <xacro:include filename="$(find eufs_description)/sensors/kinect.urdf.xacro"/>
 
-  <!-- KinectV2 -->
+  KinectV2 
   <xacro:include filename="$(find eufs_description)/sensors/kinectv2.urdf.xacro"/>
 
-  <!-- Pointgrey Bumblebee -->
+  Pointgrey Bumblebee 
   <xacro:include filename="$(find eufs_description)/sensors/pointgrey_bumblebee2.urdf.xacro"/>
 
-  <!-- ZED Stereo camera -->
-  <xacro:include filename="$(find eufs_description)/sensors/zed.urdf.xarco"/>
+  ZED Stereo camera 
+  <xacro:include filename="$(find eufs_description)/sensors/zed.urdf.xarco"/>-->
   
 </robot>

@@ -66,7 +66,7 @@
     IMU: 0.0 0.0 0.170
     GPS: -0.110 0.0 0.9
     LIDAR: 1.700 0.0 -0.150
-    STEREO CAM: -0.110 0.0 0.800 -->
+    STEREO CAM: -0.110 0.0 0.800 
 
     <xacro:sensor_imu parent="base_link" prefix="imu">
         <origin xyz="-0.0 0.0 0.0" rpy="0 0 0"/>
@@ -75,7 +75,7 @@
 
     <xacro:sensor_gps  parent="base_link" prefix="gps">
         <origin xyz="0.0 0.0 0.4" rpy="0 0 0"/>
-    </xacro:sensor_gps>
+    </xacro:sensor_gps>-->
 
 
 <!--     <xacro:sensor_hokuyo_utm30lx  parent="base_link" prefix="lidar" >
@@ -83,17 +83,17 @@
     </xacro:sensor_hokuyo_utm30lx> -->
 
 
-    <!-- <xacro:VLP-16  parent="base_link" name="velodyne" topic="/velodyne_points" hz="10">
+     <xacro:VLP-16  parent="base_link" name="velodyne" topic="/velodyne_points" hz="10">
         <origin xyz="1.700 0.0 -0.150" rpy="0 -0.0174533 0"/>
-    </xacro:VLP-16> -->
+    </xacro:VLP-16> 
 
-    <xacro:VLP-16R  parent="base_link" name="velodyne" topic="/velodyne_points" hz="10" samples="800">
+    <!-- <xacro:VLP-16R  parent="base_link" name="velodyne" topic="/velodyne_points" hz="10" samples="800">
         <origin xyz="1.58 0.0 -0.1" rpy="0 ${1*M_PI/180.0} 0"/>
     </xacro:VLP-16R>
 
     <xacro:zed_camera parent="base_link" prefix="zed">
         <origin xyz="0.1 0.0 0.52" rpy="0 0 0"/> 
-    </xacro:zed_camera>  
+    </xacro:zed_camera>   -->
 
 
 
